@@ -22,3 +22,4 @@ Route::view('/login', 'login');
 Route::view('/register', 'register');
 Route::view('/dashboard', 'dashboard')->name('dashboard');
 Route::post('logout', [LogoutController::class, 'logout'])->name('logout');
+Route::view('category', 'categories')->name('category');
