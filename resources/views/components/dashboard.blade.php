@@ -170,7 +170,7 @@
                 </div>
                 <div class="flex justify-between items-center h-14 bg-blue-800 dark:bg-gray-800 header-right">
 
-                    <Span>Hi, <span class="font-bold text-lg">{{ Auth::user()->name }}</span></Span>
+                    {{-- <Span>Hi, <span class="font-bold text-lg">{{ Auth::user()->name }}</span></Span> --}}
                     {{-- <div
                         class="bg-white rounded flex items-center w-full max-w-xl mr-4 p-2 shadow-sm border border-gray-200">
                         <button class="outline-none focus:outline-none">
@@ -268,7 +268,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('clients') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-users-crown"></i>
@@ -278,7 +278,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('services') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="fad fa-spa"></i>
@@ -287,7 +287,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('appointments') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-calendar-check"></i>
@@ -297,7 +297,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('products') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-box-full"></i>
@@ -306,7 +306,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('sales') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-credit-card"></i>
@@ -316,7 +316,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('product.sales') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-usd-circle"></i>
@@ -326,7 +326,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('employees') }}"
+                            <a href="#"
                                 class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-l-4 border-transparent hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="fal fa-user-nurse"></i>
