@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LogoutController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,5 @@ Route::get('/', function () {
 
 Route::view('/login', 'login');
 Route::view('/register', 'register');
+Route::view('/dashboard', 'dashboard')->name('dashboard');
+Route::post('logout', [LogoutController::class, 'logout'])->name('logout');
