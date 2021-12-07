@@ -19,6 +19,8 @@ class CreateVariationsTable extends Migration
             $table->string('productVariantName');
             $table->string('sku');
             $table->decimal('price');
+            $table->string('image');
+            $table->bigInteger('quantity');
             $table->timestamps();
         });
     }

@@ -17,10 +17,7 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('desc');
-            $table->decimal('price', 8, 2);
-            $table->bigInteger('quantity');
             $table->decimal('weight');
-            $table->string('image');
             $table->foreignId('category_id')->constrained()->onDelete('cascade')->onUpdate('cascade');;
             $table->timestamps();
         });
