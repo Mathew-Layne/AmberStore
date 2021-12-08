@@ -37,8 +37,10 @@ class Options extends Component
         }
     }
 
+       
+
     public function valueAdd()
-    {
+    {        
 
         $this->validate([
             'valueName' => 'required|string',
