@@ -24,3 +24,4 @@ Route::view('/dashboard', 'dashboard')->name('dashboard');
 Route::post('logout', [LogoutController::class, 'logout'])->name('logout');
 Route::view('category', 'categories')->name('category');
 Route::view('product', 'products')->name('product');
+Route::view('option', 'options')->name('option');
