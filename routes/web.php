@@ -26,3 +26,5 @@ Route::view('/cart', 'cart')->name('cart');
 Route::view('/product', 'product')->name('product');
 Route::view('/productdetails', 'productdetails')->name('productdetails');
 Route::post('logout', [LogoutController::class, 'logout'])->name('logout');
+Route::view('category', 'categories')->name('category');
+Route::view('product', 'products')->name('product');
