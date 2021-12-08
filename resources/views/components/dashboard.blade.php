@@ -292,7 +292,7 @@
                                 <span class="inline-flex justify-center items-center ml-4">
                                     <i class="far fa-calendar-check"></i>
                                 </span>
-                                <span class="ml-2 text-sm tracking-wide truncate">Appointments</span>
+                                <span class="ml-2 text-sm tracking-wide truncate">Options</span>
 
                             </a>
                         </li>
